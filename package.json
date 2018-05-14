@@ -1,6 +1,6 @@
 {
-  "name": "mern",
-  "version": "1.0.0",
+  "name": "next-toolbox",
+  "version": "3.0.0",
   "description": "Mern Demo",
   "main": "server.js",
   "scripts": {
