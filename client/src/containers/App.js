@@ -17,7 +17,9 @@ class App extends Component {
           <Route path="/hello" component={Hello} />
         </Router>
         <p className="App-intro">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
     );

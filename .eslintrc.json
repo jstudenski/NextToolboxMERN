@@ -3,7 +3,14 @@
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   },
+  "globals": {
+    "window": true,
+    "document": true
+  },
   "plugins": [
     "react", "import"
-  ]
+  ],
+  "env": {
+    "mocha": true
+  }
 }
