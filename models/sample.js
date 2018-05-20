@@ -5,15 +5,15 @@ const { Schema } = mongoose;
 const sampleSchema = new Schema({
   sampleTitle: {
     type: String,
-    required: true
+    required: true,
   },
-  sanomeNote: {
+  sampleNote: {
     type: String,
     required: true,
   },
-  chapDate: {
+  sampleDate: {
     type: Date,
-    default: Date.now
+    default: Date.now,
   },
   // user: {
   //   type: Schema.Types.ObjectId, ref: 'user'
