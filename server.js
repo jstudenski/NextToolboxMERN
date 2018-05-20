@@ -3,12 +3,16 @@ const path = require('path');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const routes = require('./routes');
+const logger = require('morgan');
+
 
 const PORT = process.env.PORT || 3001;
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+app.use(logger('dev'));
 
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/starterDB');
