@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import logo from '../images/logo.svg';
-import Hello from './Hello/';
+// import logo from '../images/logo.svg';
+import Hello from './components/Hello';
 import './App.css';
 
 
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <h1 className="App-title">React Starter</h1>
         </header>
         <Router>

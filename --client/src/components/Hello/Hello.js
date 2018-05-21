@@ -13,7 +13,7 @@ class Hello extends React.Component {
   }
 
   loadSample = () => {
-    API.getSample()
+    API.getBooks()
       .then(res => this.setState({ getSample: res.data }))
       .catch(err => console.log(err));
   };

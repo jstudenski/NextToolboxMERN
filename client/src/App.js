@@ -1,11 +1,11 @@
 import React from "react";
-import Books from "./pages/Books";
-import Nav from "./components/Nav";
+import Hello from "./containers/Hello";
+// import Nav from "./components/Nav";
 
 const App = () => (
   <div>
-    <Nav />
-    <Books />
+    {/* <Nav /> */}
+    <Hello />
   </div>
 );
 
