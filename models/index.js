@@ -1,5 +1,3 @@
-const Sample = require('./sample');
-
 module.exports = {
-  Sample,
+  Book: require("./book")
 };
