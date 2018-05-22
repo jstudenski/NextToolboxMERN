@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Hello.css';
 import API from '../../utils/API';
 
-class Hello extends React.Component {
+class Hello extends Component {
   // state = {
   //   getSamples: [{
   //     "name":"hello"},{"name":"world"}],
