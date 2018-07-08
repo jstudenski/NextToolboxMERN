@@ -1,2 +1,1 @@
-# Project Title
-test
+# Starter MERN application files
